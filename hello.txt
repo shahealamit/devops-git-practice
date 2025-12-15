@@ -4,4 +4,5 @@ This is from feature-1 branch.
 This line is edited by conflict-B branch
 This line is added from GitHub feature-2 branch
 This line is edited by conflict-A branch
-This is my first Git practical with Devops 
+This is my first Git practical with Devops
+This line is added from feature-devops branch 
