@@ -17,10 +17,10 @@ jobs:
           echo "Starting build process..."
           echo "Build completed successfully"
 
-      - name: Run Tests
+      - name: Run Tests (Fail Case)
         run: |
           echo "Running tests..."
-          exit 0
+          exit 1
 
       - name: Print Hello
-        run: echo "CI/CD pipeline started successfully"
+        run: echo "This step will NOT run"
