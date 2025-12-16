@@ -12,5 +12,10 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
+      - name: Simulate Build
+        run: |
+          echo "Starting build process..."
+          echo "Build completed successfully"
+
       - name: Print Hello
         run: echo "CI/CD pipeline started successfully"
