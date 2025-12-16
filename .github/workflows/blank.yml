@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - master
+  pull_request:
+    branches:
+      - master
 
 jobs:
   build:
@@ -17,10 +20,7 @@ jobs:
           echo "Starting build process..."
           echo "Build completed successfully"
 
-      - name: Run Tests (Fixed)
+      - name: Run Tests
         run: |
           echo "Running tests..."
           exit 0
-
-      - name: Print Hello
-        run: echo "Pipeline fixed and running successfully"
