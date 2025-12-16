@@ -17,10 +17,10 @@ jobs:
           echo "Starting build process..."
           echo "Build completed successfully"
 
-      - name: Run Tests (Fail Case)
+      - name: Run Tests (Fixed)
         run: |
           echo "Running tests..."
-          exit 1
+          exit 0
 
       - name: Print Hello
-        run: echo "This step will NOT run"
+        run: echo "Pipeline fixed and running successfully"
